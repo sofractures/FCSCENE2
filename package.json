@@ -1,0 +1,19 @@
+{
+  "name": "fcscenesframe",
+  "version": "1.0.0",
+  "description": "Farcaster Frame using Frog",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "frog dev",
+    "build": "frog vercel-build",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "frog": "latest",
+    "hono": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vercel": "^32.0.0"
+  }
+}
